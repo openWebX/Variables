@@ -1,0 +1,22 @@
+{
+  "name": "openwebx/variables",
+  "description": "Variables in php >= 7.4.x taken to the next level",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Jens Reinemuth",
+      "email": "jens@reinemuth.rocks"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "openWebX\\Variables\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "webmozart/assert": "^1.9",
+    "cocur/slugify": "^4.0"
+  }
+}
